@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c4c71827e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- navbar -->
+<section class="navbar">
+    <div class="container">
+        <ul class="navbar-list">
+            <li><a href="#flip">Flipper</a></li>
+            <li><a href="#count">Counter</a></li>
+            <li><a href="#rev">Reviews</a></li>
+            <li><a href="#mod">Modal</a></li>
+            <li><a href="#ques">Questions</a></li>
+            <li><a href="#men">Menu</a></li>
+            <li><a href="#tab">Tabs</a></li>
+            <li><a href="#gros">Grocery</a></li>
+        </ul>
+        <div class="toggle">
+            <input type='checkbox' class="checkbox">
+            <div class="hamburger"><div></div></div>
+        </div>
+       
+    </div>
+</section>
+
+<!-- Color Flipper -->
+    <section class="color-flipper">
+        <div id="flip" class="container ">
+            <div  class="small-container">
+                <h2>Color Flipper</h2>
+            
+            </div> 
+            <div class="small-container-1">
+                <h1>background color : <span class="color">#2A3191</span> </h1>
+                <button class="btn-color-flipper btn" >Click Me</button>
+            </div>         
+        </div>
+    </section>
+<!-- Counter -->
+<section class="counter">
+    <div id="count" class="container">
+        <h1>Counter</h1>
+        <h2 class="result">0</h2>
+        <div class="counter-btns">
+            
+            <button class="decrease btn">DECREASE</button>
+            <button class="reset btn">RESET</button>
+            <button class="increase btn">INCREASE</button>
+        </div>
+    </div>
+</section>
+<!-- Reviews -->
+<section class="reviews">
+    <div class="container flex-column">
+        <h1>Our Reviews</h1>
+        <div class="card flex-column">
+            <div class="img-container">
+              <img id="img" src="./pic/face1.jpg" alt="">
+            <i class="fas fa-quote-right"></i>
+            </div>
+            <h3 id="name">anna Johnson</h3>
+            <p id="job">Web designer</p>
+            <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat cupiditate suscipit? A tempora eaque enim in culpa. Neque pariatur nostrum architecto dicta, dignissimos corporis.</p>
+            <div class="arrows">
+                <i class="prev-btn fas fa-chevron-left"></i>
+                <i class="next-btn fas fa-chevron-right"></i>
+            </div>
+
+            <button class="random-btn">Surprise Me</button>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+
+<section class="modal">
+    <div class="container">
+        <div class="small-container">
+
+            <div class="firt-layer flex-column">
+                <h1>Modal project</h1>
+                <button class="btn-open-modal btn">open modal</button>
+            </div>
+        </div>
+<div class="small-container-2">
+
+    <div class="second-layer flex-column">
+        <h1>modal content</h1>
+        <button class="btn-close-modal"><i class="fas fa-times"></i></button>
+    </div>
+</div>
+</div>
+</section>
+
+
+<!-- about -->
+<section class="about">
+    <div class="container">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, illo.</p>
+        <div class="about-hero">
+            <img src="./pic/chess10.jpeg" alt="" class="about-img">
+            <div class="about-tabs">
+<div class="btn-container">
+    <button class="tab-btn active" data-id="history" >History</button>
+    <button class="tab-btn" data-id="vision">Vision</button>
+    <button class="tab-btn" data-id="goals">Goals</button>
+</div>
+<div class="text-tabs">
+
+    <div class="tab1 tab-text active" id="history">
+        <h4>history</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, impedit voluptates. Facere hic pariatur quas perferendis laborum eveniet provident aspernatur! Accusantium, vel ipsum.</p>
+</div>
+<div class="tab2 tab-text" id="vision">
+    <h4>vision</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima optio ea animi inventore omnis necessitatibus autem! Excepturi, accusamus.</p>
+</div>
+<div class="tab3 tab-text" id="goals">
+    <h4>goals</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos a eaque vel ratione culpa facere molestiae dolor minima! Quo dolorem laborum excepturi nobis provident!</p>
+</div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- menu -->
+
+<section class="menu">
+    <div class="container">
+     <h1 class="menu-head">Our Menu</h1>
+     <div class="menu-btns flex-row">
+         <botton class="btn">All</botton>
+         <botton class="btn">Breakfast</botton>
+         <botton class="btn">Lunch</botton>
+         <botton class="btn">Shakes</botton>
+         <botton class="btn">Dinner</botton>
+     </div>
+
+     <div class="menu-items">
+<div class="item-img">
+    <img src="./pic-menu/item-1.jpeg" alt="" >
+
+</div>
+         <div class="menu-text">
+             <div class="text-head"><h4>Lorem, ipsum dolor.</h4>
+             <p>£4.44</p></div>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam neque molestiae quas voluptates tempora eius cupiditate velit aliquid vero dolorem.</p>
+         </div>
+     </div>
+
+
+
+    </div>
+</section>
+
+</body>
+<script src="index.js"></script>
+</html>
