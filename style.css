@@ -380,34 +380,34 @@ img {
 
 /* tabs */
 
-.about .container > h1 {
+.tab .container > h1 {
   text-align: center;
   font-size: 4rem;
   margin: 4rem;
 }
-.about .container {
+.tab .container {
   height: auto;
 }
-.about .container > p {
+.tab .container > p {
   text-align: center;
   font-size: 2rem;
   margin: 2rem;
 }
 
-.about-hero {
+.tab-hero {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
   gap: 0.3rem;
 }
 
-.about-img {
+.tab-img {
   width: 50rem;
   margin: 3rem 1rem 1rem 1rem;
   justify-self: center;
   align-self: flex-start;
 }
 
-.about-tabs {
+.tab-tabs {
   margin-top: 3rem;
   max-width: 50rem;
   justify-self: center;

@@ -252,7 +252,7 @@ btns.forEach(btn=>{
 })
 */
 
-const about = document.querySelector('.about')
+const about = document.querySelector('.tab')
 const btns =document.querySelectorAll('.tab-btn')
 const tabs = document.querySelectorAll('.tab-text')
 
